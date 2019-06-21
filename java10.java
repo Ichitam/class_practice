@@ -3,7 +3,7 @@ public class Wand {
  private String name;
  public double power;
 }
-public class WizaWand {
+public class Wizard {
  private int hp;
  private mp;
  private String name;
@@ -15,4 +15,10 @@ public class WizaWand {
   System.out.println
    (h.getName() + "のHPを" + recoverPoint + "回復した!");
    }
+public int gethp() {
+     return this.hp
  }
+ public void sethp(int h){
+   this.hp = h;
+ }
+}
