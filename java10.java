@@ -16,9 +16,9 @@ public class Wizard {
    (h.getName() + "のHPを" + recoverPoint + "回復した!");
    }
 public int gethp() {
-     return this.hp
+  return this.hp
  }
- public void sethp(int h){
+public void sethp(int h){
    this.hp = h;
  }
 }
