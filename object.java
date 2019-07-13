@@ -39,7 +39,7 @@ public class object {
    double g = h.assembly * h.quantity;
    double c = i.mat * all.conversion * i.quantity;
    double d = i.assembly * i.quantity;
-   double e = all.assembly  * all.product;
+   double e = all.product * all.average;
    System.out.println(f + g + c + d + e);
  }
  //インスタンス作成
@@ -64,4 +64,5 @@ public class all {
   static double time = 4;
   static double conversion =1000000;
   static double plus = 1.1;
+  static double average = 3500;
   static double product =
