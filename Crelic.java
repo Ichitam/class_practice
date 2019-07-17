@@ -20,6 +20,7 @@ public void selfAid() {
   this.MP -= 5;
   this.HP = this.maxHP;
 }
+
 public int pray(int time){
   int firstMP = this.MP;
   int praytime = new java.util.Random().nextInt(3);
