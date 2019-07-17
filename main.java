@@ -2,8 +2,8 @@
 public class main{
   public static void main(String[] args) {
     // ここでcrelic(名前　あさかHP、４０、MP １０)
-    Crelic asaka = new Crelic(String あさか, int HP, int MP);
-    int a = 8
+    Crelic asaka = new Crelic(あさか, HP, MP);
+    int a = 8;
     asaka.name = "あさか";
     asaka.HP = 40;
     asaka.MP = 10;
