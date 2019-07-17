@@ -2,7 +2,7 @@
 public class main{
   public static void main(String[] args) {
     // ここでcrelic(名前　あさかHP、４０、MP １０)
-    name a = new name();
+    Crelic a = new Crelic();
     a.name = "あさか"
     a.HP = 40;
     a.MP = 10;
