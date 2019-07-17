@@ -31,4 +31,6 @@ public int pray(int time){
   int output = this.MP - firstMP;
   return output;
 }
+
+name h = new name(asaka);
 }

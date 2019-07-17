@@ -1,4 +1,4 @@
-public class object extend Money{
+public class object {
  public static void main(String[] args) {
    double assemblyAmerica = 30;
    double assemblyJapan = 4000;
