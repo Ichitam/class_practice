@@ -6,6 +6,7 @@ public class main{
     Crelic minato = new Crelic("minato",40,8);
   selfAid();
   asaka.selfAid();
+  asaka.pray();
   System.out.println(asaka.name);
   System.out.println(asaka.HP);
   System.out.println(asaka.MP);
